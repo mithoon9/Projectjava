@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/cover"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/healthposte"/>
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cover"
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/bug"
+        />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Name"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toEndOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@+id/cover" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="User name"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toEndOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toEndOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@+id/cover" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toEndOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txt_bio"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="180dp"
+        android:padding="20dp"
+
+        android:text="HEALTH TIPS FOR YOU"
+
+
+        android:textSize="15dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        android:layout_margin="5dp"
+       android:layout_below="@+id/txt_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Eat a variety of food"
+        android:id="@+id/age"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_below="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/as"
+        android:text="2.Base your diet on plenty of foods rich in carbohydrates"
+        android:padding="5dp"
+
+        />
+
+    ////
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_below="@+id/as"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.Replace saturated with unsaturated fat"
+        android:id="@+id/age1"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_below="@+id/age1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.Enjoy plenty of Fruits and Vegetable"
+        android:id="@+id/bs"
+        android:padding="5dp"
+        />
+
+//
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_below="@+id/bs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.Reduce salt and sagar intake"
+        android:id="@+id/age2"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/pro"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/age2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6.Eat regulary, control the portion size"
+        android:padding="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/gre"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7.Drink plenty of fluids"
+        android:padding="5dp"
+
+        />
+    <TextView
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/gre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7.Drink plenty of fluids"
+
+        />
+
+</RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
